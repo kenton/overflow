@@ -24,6 +24,14 @@
     .flex-start {
         @apply flex justify-start items-center;
     }
+
+    .invert-colors {
+        @apply invert dark:invert-0;
+    }
+
+    .text-dark200_light800 {
+        @apply text-dark-200 dark:text-light-800;
+    }
 }
 
 .custom-scrollbar::-webkit-scrollbar {
